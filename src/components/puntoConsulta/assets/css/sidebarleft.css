@@ -1,0 +1,201 @@
+:root {
+    --width: 300px;
+    --padding: 10px;
+    --bgcolor: rgb(52,52,52);
+    --hovercolor: rgb(23,23,23);
+    --width-colapser: 50px;
+}
+
+/* .body {
+    background-color: #032c55;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: var(--width-colapser);
+} */
+/* Colocar esto cuando modal is True para que no se coma nada*/
+.body-expanded{
+    margin-left: var(--width);
+}
+
+.sidebar_container {
+    background-color: var(--bgcolor);
+    color: white;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.sidebar_container a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+.sidebar_container .sidebar_header {
+    box-sizing: border-box;
+    border-bottom: solid 1px var(--hovercolor);
+
+}
+
+.sidebar_container .sidebar_header .sidebar_title{
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.sidebar_container .sidebar_header .sidebar_title,
+.sidebar_container .sidebar_header .sidebar_menu_btn{
+    vertical-align: middle;
+
+}
+
+.sidebar_container .sidebar_header .sidebar_menu_btn{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    width: var(--width-colapser);
+    box-sizing: border-box;
+
+}
+.sidebar_container .sidebar_header .sidebar_menu_btn:hover {
+    background-color: var(--hovercolor);
+}
+.sidebar_container .sidebar_header .sidebar_menu_btn .btn-hamburger {
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+}
+
+/* Profile */
+
+.sidebar_container .sidebar_profile {
+    border-bottom: solid 1px var(--hovercolor);
+    padding: var(--padding) 0;
+    text-align: center;
+}
+
+.sidebar_container .sidebar_profile .sidebar_foto {
+    box-sizing: border-box;
+    padding: var(--padding);
+    margin: 0 auto;
+}
+
+.sidebar_container .sidebar_profile .sidebar_foto img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.sidebar_container .sidebar_profile .sidebar_foto,
+.sidebar_container .sidebar_profile .sidebar_name {
+    font-size: 24px;
+    padding: var(--padding) 0;
+    overflow: hidden;
+}
+
+/* Items */
+
+.sidebar_container .menu_items{
+    overflow: hidden;
+}
+.sidebar_container .menu_items .item{
+    width: var(--width);
+}
+.sidebar_container .menu_items .item .icon{
+    display: inline-block;
+}
+
+.sidebar_container .menu_items .item .icon,
+.sidebar_container .menu_items .item .title{
+    font-size: 24px;
+    vertical-align: middle;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.sidebar_container .menu_items .item a{
+    display: block;
+}
+
+.sidebar_container .menu_items .item a:hover {
+    background-color: var(--hovercolor);
+}
+
+.sidebar_container .menu_items .item .icon{
+    box-sizing: border-box;
+    padding: var(--padding);
+    width: var(--width-colapser);
+}
+
+.sidebar_container .menu_items .item .icon img{
+    width: 100%;
+}
+
+.sidebar_container .menu_items .item .title{
+    padding: var(--padding) 0;
+}
+
+.sidebar_container .menu_items .item.separador{
+   height: 1px;
+   border-bottom: solid 1px var(--hovercolor);
+   margin: 15px 0;
+}
+
+/* configurar la expancion de menu */
+
+.menu_expanded {
+    width: var(--width);
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+}
+
+.menu_expanded .sidebar_header .sidebar_title{
+    display: inline-block;
+    width: calc(100% - 50px);
+    margin-right: -5px;
+    padding: var(--padding);
+}
+
+
+.menu_expanded .sidebar_header .sidebar_title span{
+    display: inline-block;
+    width: calc(var(--width) - var(--width-colapser) - 5px);
+    overflow: hidden;
+   
+}
+
+.menu_expanded .sidebar_profile .sidebar_foto{
+    width: 200px;
+}
+
+.menu_expanded .sidebar_profile .sidebar_name{
+    width: 100px;
+}
+
+.menu_collapsed {
+    width: var(--width-colapser);
+}
+
+.menu_collapsed  .sidebar_foto {
+    /* box-sizing: border-box; */
+    width: 25px;
+    height: 25px;
+}
+.menu_collapsed .sidebar_header .sidebar_title{
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_collapsed .sidebar_profile .sidebar_name{
+    display: none;
+}
+
+.menu_collapsed .item {
+    width: 100px;
+}

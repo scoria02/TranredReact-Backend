@@ -1,0 +1,32 @@
+.Entries__entries{
+    flex: 1 1 auto;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+
+.Entries__entry {
+    background-color: white;
+    border-radius: 4px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.Entries__entry-picture {
+    height: 75px;
+    width: 75px;
+}
+
+.Entries__entry-body {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Entries__entry-title {
+    
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -1,0 +1,81 @@
+.form{
+    /* background-color: rgb(221, 194, 247); */
+    /* background-color: rgb(141, 147, 150); */
+    /* height: 70vh; */
+    /* margin-top: 20px; */
+    margin-top: 0;
+    padding: 0;
+    /* width: ; */
+}
+.fondo{
+    color: #a8aedb;
+    font-weight: bold;
+    /* border-radius: 25px; */
+    /* background-color: rgb(119, 77, 155); */
+    /* background-color: #a53f80 ; */
+    background: linear-gradient(90deg, #3c436f, #a53f80 )
+}
+.form_container{
+    /* background-color: rgb(221, 194, 247); */
+    /* background-color: rgb(141, 147, 150); */
+    /* border:20px solid #666; */
+    height: 100vh;
+}
+.form_container h1{
+    justify-content: space-between;
+    font-family: 'Muli', sans-serif;
+    text-align-last: center;
+    /* padding-top: 15px; */
+    color: white;
+}
+.form_container_form{
+    justify-content: space-between;
+}
+.form-text-p{
+    color: white;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    float: right;
+}
+.boton{
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    /* padding-left: 5%; */
+}
+.input_form {
+    text-align-last: center;
+    background-color: rgba(245, 241, 241, 0.116);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    justify-content: space-between;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 40px; 
+     margin-top: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 20px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.input_form2 {
+    text-align-last: center;
+    background-color: rgba(245, 241, 241, 0.116);
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    justify-content: space-between;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 100px; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 20px 20px;
+    padding-left: 50px;
+    width: 100%;
+}

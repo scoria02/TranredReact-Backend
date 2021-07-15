@@ -1,0 +1,56 @@
+.pointer {
+    cursor: pointer;
+}
+
+.dashclick {
+  padding: 120px;
+  color: white;
+}
+
+.dashclick:hover {
+  
+  color: rgb(58, 58, 170);
+  text-decoration: none;
+}
+
+.call__sidebarleft {
+    /* background-color: #a0427e; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 100vh;
+    width: 300px;
+}
+
+
+.call__entry-container {
+    padding: 0;
+   
+}
+
+
+.call__entry-picture {
+    
+    /* box-shadow: 5px 5px #666; */
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    border:10px solid #666;
+    padding-top: 40px;
+    padding-left: 40px;
+  
+}
+
+.call__entry-container h3 {
+    padding-top: 0;
+    font-weight: bold;
+    justify-content: space-between;
+    font-family: 'Muli', sans-serif;
+}
+
+.call__img img{
+    /* background-color: blue; */
+    height: 300px;
+    width: 300px;
+}

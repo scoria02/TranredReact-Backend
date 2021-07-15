@@ -1,0 +1,50 @@
+
+/* .tranred__main-content {
+    display: flex;
+} */
+
+.body {
+    background-color: white;
+}
+.tranred__sidebar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+}
+
+.tranred__sidebar-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tranred__sidebar-navbar h3 {
+    font-weight: lighter;
+}
+
+
+.tranred__subnavbar_container {
+    padding-left: 10px;
+    background-color: rgb(128, 125, 125);
+   
+}
+
+
+.tranred__subnavbar_container:hover{
+background-color: rgba(37, 37, 37, 0.562);
+}
+
+.tranred__span_subnavbar{
+    color: rgb(249, 249, 252) ;
+
+}
+
+
+.tranred__span_subnavbar:hover{
+    color: rgb(75, 41, 153) ;
+
+}

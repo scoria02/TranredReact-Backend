@@ -1,0 +1,57 @@
+.control-container{
+    margin: 5px;
+}
+.control-form-1{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+}
+.control-form-1 h3{
+    padding-top: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.control-container form{
+    padding: 10px;
+}
+
+.btnSubmit{
+    align-items: center;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5% ;
+    border: none;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    
+    align-items: center;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5% ;
+    border: none;
+    cursor: pointer;
+    /* background-color: green !important; */
+    
+}
+
+.control-form-1 .btnSubmit{
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.control-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.perfil {
+    border-radius: 2px;
+    border: 2px solid rgba(128, 128, 128, 0.541);
+    /* padding-top: 25px; */
+    padding-left: 5%;
+    
+}
